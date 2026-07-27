@@ -115,7 +115,20 @@ Diagnose → Design → Develop → Debug → Deliver
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DrFlow-Labs/.github/output/github-contribution-grid-snake-dark.svg" alt="Animação das contribuições"/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/DrFlow-Labs/DrFlow-Labs/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/DrFlow-Labs/DrFlow-Labs/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="Animação das contribuições"
+    src="https://raw.githubusercontent.com/DrFlow-Labs/DrFlow-Labs/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 </div>
 
