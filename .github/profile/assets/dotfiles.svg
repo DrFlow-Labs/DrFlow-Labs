@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="190" viewBox="0 0 620 190">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="616" height="186" rx="18" fill="url(#bg)" stroke="#22c55e" stroke-opacity=".55"/>
+  <circle cx="50" cy="51" r="22" fill="#22c55e" fill-opacity=".13" stroke="#22c55e"/>
+  <path d="M40 52h20M50 42v20" stroke="#22c55e" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <text x="88" y="58" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">Dotfiles</text>
+  <text x="34" y="104" fill="#94a3b8" font-family="Arial, sans-serif" font-size="16">Linux, terminal, Neovim e ambiente de desenvolvimento.</text>
+  <rect x="34" y="132" width="129" height="32" rx="16" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-opacity=".6"/>
+  <text x="50" y="153" fill="#4ade80" font-family="Arial, sans-serif" font-size="14" font-weight="700">Shell / Lua</text>
+  <text x="530" y="153" fill="#22c55e" font-family="Arial, sans-serif" font-size="14">ABRIR ↗</text>
+</svg>
